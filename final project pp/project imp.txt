@@ -1,0 +1,20 @@
+project steps :-
+
+1)ppt open
+
+2)anaconda open --> environment ma --> garbage --> install jova nu.. --> all option cheacked
+	1)tensorflow
+	2)flask
+	3)pillow
+	4)keras --> home pr java nu --> spyder open krva nu 
+
+3)spyder open (code open) --> run (upper) --> right side console open --> https link --> 
+	browser ma open ma thase link --> ama apdi web-site open thase 
+
+4)downlaod --> garbage clacifier --> server(open with notepad) --> copy n paste -->
+	server(spyder) 
+
+5)ngrok open --> cmd ma -->ngrok hhtp 5000 
+
+
+spyder open --> mate --> c://project//static n upload

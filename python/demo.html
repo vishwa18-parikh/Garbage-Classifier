@@ -1,0 +1,503 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{margin: 0; font-family: monospace;}
+             
+        .header{width: 100%; padding-left: 20px; padding-right:  20px;padding-top: 20px;padding-bottom: 20px; 
+        border-bottom: 1px solid #eee; display: flex; justify-content:center;font-size: 36px;background-color: 
+        rgb(184, 162, 179);}
+        .header1{width: 100%; margin: -10px; display: flex; justify-content:center;font-size: 20px;}
+        span a{padding: 10px; text-decoration: none; color: #020a14;}
+        span a:hover{background-color: #3333; border-bottom: 4px solid #1967d2 ;}
+        .gbtn:hover{background-color: #c08c8c;}
+        .gbtn{width: 100px; padding: 10px; height: 50px; border: none; background-color:rgb(171, 99, 185);
+         color: black; font-size: 25px; border-radius: 5%; box-shadow: 5px 5px 5px rgb(128, 126, 126);}
+        .nav {color: #fff;}
+        .one{padding: 6px; width: 100%; background-color: whitesmoke; font-family: monospace; font-size: 16px;
+          display: none;}
+        .two{height: 200px; width: 100%; background-color: whitesmoke; display: none; font-size: 16px;}
+        .three{height: 200px; width: 100%; background-color: whitesmoke; display: none; font-size: 16px;}
+
+        .main{top: 30%; position: absolute; left: 1%;}
+        .main1{top: 45%; position: absolute; left: 50%;transform: translate(-50%,-50%);}
+        ul{margin: 0;list-style: none;}
+        ul li{padding: 20px;}
+    </style>
+</head>
+<body>
+    <div class="header">
+      Biodegradable & Non-Biodegradable
+ 
+    </div>
+
+    <br>
+    <div class="header1">
+    <span>
+      <a href="">Home</a>
+      <a href="">Home</a>
+      <a href="">Home</a>
+      <a href="">Home</a>   
+    </span>
+    
+    </div>
+
+    <div class="main">
+     <ul>
+      <li><button id="btn" class="gbtn">What</button></li>
+      <li><button id="btn1" class="gbtn">Why</button></li>
+      <li><button id="btn2" class="gbtn" >How</button></li>
+     </ul>
+    </div>
+         
+          <div class="main1">
+          <div class="one" id="di"></br>
+            <form class="frm">
+                <table align="center" class="tbl">
+                    
+                    <p>
+                      Technology has improved the quality of life and given birth to an advanced form of life. This
+                      has varying impact on the environment and other lives on the earth. For instance, water 
+                      bottels made of plastic, which is convenient to use and carry but its disposal is a challenge
+                      for nature. There are lots of waste materials which are degradable and non- degradable.
+                    </p>
+
+                    <p>
+                      Therefore, categorization and proper disposal of waste are necessary. Waste materials can be 
+                      classified as biodegradable and non-biodegradable. Risk and threats related to waste disposals
+                      can be easily avoided by the knowledge on types of wastes.
+                    </p>
+                </table>
+            </form>
+          </div>
+
+              <div class="two" id="did" >
+                  <form class="frm">
+                      <table align="center" class="tbl">
+                          <tr><td>&nbsp;</td></tr>
+                          <p>
+                            There is need to segregate the wastes because the wastes may/may not be decomposed by the 
+                            biological microorganisms the wastes which can be decomposed by biological microorganisms 
+                            such as bacteria etc.. are known as biodegradable wastes. the wastes that cannot be 
+                            decomposed by biological process but only by the addition of chemicals are known as non
+                             biodegradable wastes.
+                          </p>
+
+                          <p>
+                            Since non-biodegradable are not Eco-freindly, they need to be replaced.
+                            Thus this application will help us to segregate biodegradable and non-biodegradable.</p>
+                      </table>
+                  </form>
+              </div>
+
+              <div class="three" id="didi" >
+                <form class="frm">
+                    <table align="center" class="tbl">
+                        <tr><td>&nbsp;</td></tr>
+                        <p> Biodegradable waste - Plant products, wood, paper, food waste, leaves, grass.</p>
+                        <p>
+                          Non - biodegradable waste - cans, bottles, plastic products, metal scraps, glasses, 
+                          or plastic bags.
+                        </p>
+
+                        <p>
+                          Biodegradable waste can be separated from non biodegradable waste by waste 
+                          Segregation means dividing waste into dry and wet. Dry waste includes wood and
+                          related products, metals and glass. Wet waste, typically refers to organic waste 
+                          usually generated by eating establishments and are heavy in weight due to dampness. 
+                          Waste can also be segregated on basis of biodegradable or non-biodegradable waste.</p>
+                    </table>
+                </form>
+            </div>     
+          </div>
+
+        <script>
+            $(document).ready(function(){
+                
+                $('#btn').click(function(){
+                    $('#di').slideToggle(1000);
+                    $('#did').slideUp(1000);
+                    $('#didi').slideUp(1000);
+                });
+            })
+    
+            $(document).ready(function(){
+                
+                $('#btn1').click(function(){
+                    $('#di').slideUp(1000);
+                    $('#didi').slideUp(1000);
+                    $('#did').slideToggle(1000);
+                });
+            })
+
+            $(document).ready(function(){
+                
+                $('#btn2').click(function(){
+                    $('#did').slideUp(1000);
+                    $('#di').slideUp(1000);
+                    $('#didi').slideToggle(1000);
+                });
+            })
+        </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<title>WASTE DETECTION</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif;}
+body {font-size:16px;background-color: white;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer;}
+.w3-half img:hover{opacity:1;}
+h3{margin:0;}
+</style>
+
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" 
+id="mySidebar";>
+<br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" 
+  style="width:100%;font-size:22px">My Project</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b> Waste Detection</b></h3>
+  </div>
+
+<hr>
+
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">What</a> 
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Why</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">How</a> 
+     <!-- <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Try it!!</a>  -->
+     <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Differences</a> 
+    <!-- <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a> --> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Try it !</a> 
+
+  </div>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <!-- <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="my_project()">?</a> -->
+  <!-- <span>open</span> -->
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="my_project()" style="cursor:pointer" title="close side menu" 
+id="myOverlay">
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <!-- <div class="w3-container w3-white"> -->
+    <!-- <h4><b>Plastic</b></h4> -->
+   
+<!-- </div> -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+
+    <h1 class="w3-jumbo">
+      <b>Biodegradable & Non - Biodegradable </b>
+      <img src="waste.jpg" style="width: 250px; height: 200px;"></h1> 
+      <h1 class="w3-xxxlarge w3-text-red"><b>What?</b></h1>
+    <p> 
+        Technology has improved the quality of life and given birth to an advanced form of life. This
+        has varying impact on the environment and other lives on the earth. For instance, water 
+        bottels made of plastic, which is convenient to use and carry but its disposal is a challenge
+        for nature. There are lots of waste materials which are degradable and non- degradable.
+    </p>
+
+    <p> 
+        Therefore, categorization and proper disposal of waste are necessary. Waste materials can be 
+        classified as biodegradable and non-biodegradable. Risk and threats related to waste disposals
+        can be easily avoided by the knowledge on types of wastes.
+    </p>
+    <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+  </div>
+
+<!--   
+  <!-- Photo grid (modal) -->
+  <!-- <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight
+       scandinavian design">
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer
+       chairs">
+    </div> -->
+
+    <!-- <div class="w3-half">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one 
+      space">
+      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div> -->
+
+  <!-- Modal for full size images on click-->
+  <!-- <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div> --> 
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Why?</b></h1>
+    <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+    <p>
+      There is need to segregate the wastes because the wastes may/may not be decomposed by the biological 
+      microorganisms the wastes which can be decomposed by biological microorganisms such as bacteria etc..
+      are known as biodegradable wastes. the wastes that cannot be decomposed by biological process but only by 
+      the addition of chemicals are known as non biodegradable wastes.
+    </p>
+
+    <p>
+      Since non-biodegradable are not Eco-freindly, they need to be replaced.
+      Thus this application will help us to segregate biodegradable and non-biodegradable.
+  </p>
+
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>How?</b></h1>
+    <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+    <p> 
+        Biodegradable waste - Plant products, wood, paper, food waste, leaves, grass.
+    </p>
+
+    <p>
+        Non - biodegradable waste - cans, bottles, plastic products, metal scraps, glasses, or plastic bags.
+    </p>
+
+    <p>
+        Biodegradable waste can be separated from non biodegradable waste by waste Segregation means dividing waste 
+        into dry and wet. Dry waste includes wood and related products, metals and glass. Wet waste, typically refers
+        to organic waste usually generated by eating establishments and are heavy in weight due to dampness. Waste
+        can also be segregated on basis of biodegradable or non-biodegradable waste.
+    </p>
+    
+  </div>
+
+  <!-- The Team -->
+  <!-- <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Differences</b></h1>
+    <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Biodegradable</li>
+
+        <li class="w3-padding-16">1. These wastes can be broken down into non-poisonous substances by the action of
+           microorganisms like bacteria and earthworms.</li>
+        <li class="w3-padding-16">2. Biodegradable substances change their form and structure over time and become 
+          harmless.</li>
+        <li class="w3-padding-16">3. biodegradable trash ends up in landfills, it breaks down more quickly than 
+          ordinary garbage does, suggests a new study. They do not pollute the environment.</li>
+        <li class="w3-padding-16">Examples: Spoilt food, vegetable peels, tea leaves, wood, grass, paper, leather, 
+          cotton, cattle dung etc.</li>
+        <!-- <li class="w3-padding-16">Good deals</li> -->
+        <!-- <li class="w3-padding-16">
+          <h2>$ 199</h2>
+          <span class="w3-opacity">per room</span>
+        </li>
+
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+        </li> -->
+
+      </ul>
+
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32">Non-Biodegradable</li>
+
+        <li class="w3-padding-16">1. These wastes cannot be broken down into harmless substances by any biological 
+          processes.</li>
+        <li class="w3-padding-16">2. Non-biodegradable substances remain unchanged over a long period of time.</li>
+        <li class="w3-padding-16">3. Some of them remain inert and begin to accumulate in our surroundings, 
+          while others cannot be made less toxic easily and hence keep on polluting the environment.</li>
+        <li class="w3-padding-16">Examples: Glass bottles, metal cans, polythene bags, synthetic fibres, 
+          radioactive wastes, plastics and pesticides like DDT etc.</li>
+        <!-- <li class="w3-padding-16">GREAT deals</li> -->
+        <!-- <li class="w3-padding-16">
+          <h2>$ 249</h2>
+          <span class="w3-opacity">per room</span>
+        </li>
+
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
+        </li> -->
+
+      </ul>
+          
+ </div>
+  
+   <!-- Contact  -->
+   <!-- <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new 
+      people!
+    </p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+
+  </div>  -->
+
+  <div class="w3-col l12">
+    <!-- About Card -->
+    <div class="w3-card w3-margin w3-margin-top">
+    <!-- <img src="/w3images/avatar_g.jpg" style="width:100%"> -->
+      <div class="w3-container w3-white">
+         <h4><b>Biodegradable</b></h4>
+         <div class="w3-card w3-margin w3-margin-top" style="display: flex;">
+        <!-- <img src="/w3images/avatar_g.jpg" style="width:100%"> -->
+          <div class="w3-container w3-white">
+            <h4><b>Cardboard</b></h4>
+            <img src="cardboard1.jpg" style="width: 100%; height: 70%;">
+          </div>
+
+          <div class="w3-container w3-white">
+            <h4><b>Trash</b></h4>
+            <img src="trash2.jpg" style="width: 100%; height: 70%;">
+          </div>
+
+          <div class="w3-container w3-white">
+            <h4><b>Paper</b></h4>
+            <img src="paper1.jpg" style="width: 100%; height: 70%;">
+          </div>
+
+     </div>
+     
+    <!-- </div>
+      <hr> -->
+
+
+    <div class="w3-col l12">
+      <!-- About Card -->
+      <div class="w3-card w3-margin w3-margin-top">
+      <!-- <img src="/w3images/avatar_g.jpg" style="width:100%"> -->
+        <div class="w3-container w3-white">
+          <h4><b>Non - Biodegradable</b></h4>
+          <div class="w3-card w3-margin w3-margin-top" style="display: flex;">
+          <!-- <img src="/w3images/avatar_g.jpg" style="width:100%"> -->
+            <div class="w3-container w3-white">
+               <h4><b>Glass</b></h4>
+               <img src="glass1.jpg" style="width: 100%; height: 70%;">
+            </div>
+
+            <div class="w3-container w3-white">
+              <h4><b>Metal</b></h4>
+              <img src="metal1.jpg" style="width: 100%; height: 70%;">
+            </div>
+  
+            <div class="w3-container w3-white">
+               <h4><b>Plastic</b></h4>
+               <img src="plastic1.jpg" style="width: 100%; height: 70%;">
+            </div>
+ 
+       </div>
+
+      </div>
+
+<!-- End page content -->
+</div>
+
+<!-- <br> -->
+
+</div>
+
+</div>
+
+</div>
+
+<div class="w3-container" id="packages" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-red"><b>Try it!</b></h1>
+
+  <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+</div>
+
+</body>
+
+<form action = "/predict" method = "post" enctype="multipart/form-data">  
+  <input type="file" name="file" />  
+  <input type = "submit" value="Predict">  
+</form>  
+
+<br>
+</html>
